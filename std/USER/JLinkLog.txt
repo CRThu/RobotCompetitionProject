@@ -1,0 +1,22 @@
+
+T248C 001:843 SEGGER J-Link V6.16b Log File (0000ms, 0000ms total)
+T248C 001:843 DLL Compiled: Jun  9 2017 18:03:30 (0000ms, 0000ms total)
+T248C 001:843 Logging started @ 2017-12-30 11:46 (0000ms, 0000ms total)
+T248C 001:843 JLINK_SetWarnOutHandler(...) (0000ms, 0000ms total)
+T248C 001:843 JLINK_OpenEx(...)
+  ***** Error: Cannot connect to J-Link via USB.  returns "Cannot connect to J-Link via USB." (0000ms, 0000ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T248C 001:843 
+  ***** Error: Cannot connect to J-Link via USB.JLINK_IsOpen()  returns 0x00 (0000ms, 0001ms total)
+T248C 003:149 JLINK_EMU_SelectByUSBSN(SerialNo = 0)  returns 0xFFFFFFFF (0000ms, 0001ms total)
+T248C 003:149 JLINK_EnableLog(...) (0000ms, 0001ms total)
+T248C 003:149 JLINK_SetWarnOutHandler(...) (0000ms, 0001ms total)
+T248C 003:149 JLINK_OpenEx(...)
+  ***** Error: Cannot connect to J-Link via USB.  returns "Cannot connect to J-Link via USB." (0001ms, 0002ms total)
+
+  ***** API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T248C 003:150 
+  ***** Error: Cannot connect to J-Link via USB.JLINK_Close() (0000ms, 0002ms total)
+T248C 004:654  (0000ms, 0002ms total)
+T248C 004:654 Closed (0000ms, 0002ms total)
